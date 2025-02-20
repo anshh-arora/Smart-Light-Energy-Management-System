@@ -3,6 +3,65 @@
 ## Overview
 The Smart Light & Energy Management System is an advanced analytics platform designed to optimize energy costs, detect inefficiencies, and automate billing for additional usage. By analyzing sensor data from lighting systems, this solution helps facility managers monitor energy consumption patterns, identify anomalies, and generate insights for operational improvements.
 
+smart-light-energy/
+│
+├── README.md               # Project documentation
+├── requirements.txt        # Python dependencies
+├── LICENSE                 # License information
+│
+├── data/                   # Data directory
+│   ├── raw/                # Raw sensor data
+│   │   └── company_sensor_data.csv
+│   └── processed/          # Processed data
+│       └── processed_sensor_data.csv
+│
+├── src/                    # Source code
+│   ├── __init__.py
+│   ├── data/               # Data handling modules
+│   │   ├── __init__.py
+│   │   ├── generator.py    # Data generation script
+│   │   └── processor.py    # Data processing functions
+│   │
+│   ├── analysis/           # Analysis modules
+│   │   ├── __init__.py
+│   │   ├── billing.py      # Billing calculation logic
+│   │   ├── efficiency.py   # Efficiency analysis
+│   │   └── maintenance.py  # Maintenance prediction
+│   │
+│   ├── visualization/      # Visualization code
+│   │   ├── __init__.py
+│   │   ├── plots.py        # Static visualization functions
+│   │   └── dashboard.py    # Streamlit dashboard
+│   │
+│   └── utils/              # Utility functions
+│       ├── __init__.py
+│       ├── email_sender.py # Email notification system
+│       └── config.py       # Configuration management
+│
+├── notebooks/              # Jupyter notebooks for exploration
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_model_development.ipynb
+│   └── 03_visualization_prototypes.ipynb
+│
+├── tests/                  # Test code
+│   ├── __init__.py
+│   ├── test_data.py
+│   ├── test_analysis.py
+│   └── test_visualization.py
+│
+├── models/                 # Saved ML models (if applicable)
+│   └── anomaly_detector.pkl
+│
+├── static/                 # Static assets for dashboard
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+└── docs/                   # Additional documentation
+    ├── api_reference.md
+    ├── user_guide.md
+    └── architecture.md
+    
 ## 🎯 Key Features
 - **Automated Client Billing**: Detect and invoice light usage beyond contracted hours
 - **Operational Cost Reduction**: Identify inefficiencies in cleaning staff operations
