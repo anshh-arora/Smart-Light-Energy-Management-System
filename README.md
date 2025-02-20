@@ -2,7 +2,7 @@
 
 ## Overview
 The Smart Light & Energy Management System is an advanced analytics platform designed to optimize energy costs, detect inefficiencies, and automate billing for additional usage. By analyzing sensor data from lighting systems, this solution helps facility managers monitor energy consumption patterns, identify anomalies, and generate insights for operational improvements.
-
+```bash
 smart-light-energy/
 │
 ├── README.md               # Project documentation
@@ -61,7 +61,7 @@ smart-light-energy/
     ├── api_reference.md
     ├── user_guide.md
     └── architecture.md
-    
+```
 ## 🎯 Key Features
 - **Automated Client Billing**: Detect and invoice light usage beyond contracted hours
 - **Operational Cost Reduction**: Identify inefficiencies in cleaning staff operations
