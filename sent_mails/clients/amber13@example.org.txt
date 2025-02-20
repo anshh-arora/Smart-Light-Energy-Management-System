@@ -1,0 +1,14 @@
+Subject: Billing Alert: Extra Energy Usage
+To: amber13@example.org
+
+
+        Dear Johnny Burns,
+
+        You have exceeded your allowed energy usage by 0.41 hours.
+        As per the agreement, you are required to pay ₹4.10 for the extra usage.
+
+        Please make the necessary payment at your earliest convenience.
+
+        Regards,
+        Energy Monitoring Team
+        
